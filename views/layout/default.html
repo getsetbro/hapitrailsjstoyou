@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>what's app doc?</title>
+  <style>
+    body{
+      color:cornflowerblue
+    }
+  </style>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        {{! Import the contents of header.html from partials}}
+        {{> header}}
+
+        {{! Every view gets inserted here }}
+        {{{content}}}
+  <script src='js/main.js'></script>
+</body>
+</html>
