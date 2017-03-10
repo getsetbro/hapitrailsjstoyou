@@ -1,2 +1,2 @@
-# hapitrailsjstoyou
-trailsjs kickoff
+# hapi little app
+node.js kickoff
